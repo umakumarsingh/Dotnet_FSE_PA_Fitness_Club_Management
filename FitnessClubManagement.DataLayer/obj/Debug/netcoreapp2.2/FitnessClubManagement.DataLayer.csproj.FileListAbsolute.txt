@@ -1,0 +1,12 @@
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.deps.json
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.dll
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.pdb
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.dll
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.pdb
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.csprojAssemblyReference.cache
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.AssemblyInfoInputs.cache
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.AssemblyInfo.cs
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.csproj.CoreCompileInputs.cache
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.csproj.CopyComplete
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.dll
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.pdb

@@ -1,0 +1,5 @@
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp3.1\FitnessClubManagement.DataLayer.deps.json
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp3.1\FitnessClubManagement.DataLayer.dll
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp3.1\FitnessClubManagement.DataLayer.csprojAssemblyReference.cache
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp3.1\FitnessClubManagement.DataLayer.AssemblyInfoInputs.cache
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp3.1\FitnessClubManagement.DataLayer.AssemblyInfo.cs

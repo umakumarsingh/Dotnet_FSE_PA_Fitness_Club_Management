@@ -1,0 +1,9 @@
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.deps.json
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.dll
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.pdb
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.AssemblyInfoInputs.cache
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.AssemblyInfo.cs
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.csproj.CoreCompileInputs.cache
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.dll
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.pdb
+D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.csprojAssemblyReference.cache
