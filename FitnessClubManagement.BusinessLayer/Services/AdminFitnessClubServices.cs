@@ -26,8 +26,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<DietPlan> AddDietPlan(DietPlan dietPlan)
         {
-            var diet = await _adClubRepository.AddDietPlan(dietPlan);
-            return diet;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// add new Instructor in MongoDb Instructor Collection
@@ -36,8 +36,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Instructor> AddInstructor(Instructor instructor)
         {
-            var addinstructor = await _adClubRepository.AddInstructor(instructor);
-            return addinstructor;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// add new MemberShipPlan in MongoDb MemberShipPlan Collection
@@ -46,8 +46,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<MemberShipPlan> AddMemberShipPlan(MemberShipPlan memberShipPlan)
         {
-            var plan = await _adClubRepository.AddMemberShipPlan(memberShipPlan);
-            return plan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// add new Tools in MongoDb Tools Collection
@@ -56,8 +56,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Tools> AddTools(Tools tools)
         {
-            var tool = await _adClubRepository.AddTools(tools);
-            return tool;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// add new Workout in MongoDb Workout Collection
@@ -66,8 +66,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Workout> Addworkout(Workout workout)
         {
-            var addworkout = await _adClubRepository.Addworkout(workout);
-            return addworkout;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all contact message from MongoDb collection by Repository Method
@@ -75,8 +75,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<ContactUs>> AllContactMessage()
         {
-            var contactMessage = await _adClubRepository.AllContactMessage();
-            return contactMessage;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Instructor from MongoDb collection by Repository Method
@@ -84,8 +84,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Instructor>> AllInstructor()
         {
-            var instructor = await _adClubRepository.AllInstructor();
-            return instructor; 
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing DietPlan from MongoDb Collection by dietplan Id
@@ -94,8 +94,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<bool> DeleteDietPlan(string dietplanId)
         {
-            var dietplan = await _adClubRepository.DeleteDietPlan(dietplanId);
-            return dietplan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing Instructor from MongoDb Collection by instructor Id
@@ -104,8 +104,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<bool> DeleteInstructor(string instructorId)
         {
-            var instructor = await _adClubRepository.DeleteInstructor(instructorId);
-            return instructor;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing Member Ship Plan from MongoDb Collection by instructor Plan Id
@@ -114,8 +114,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<bool> DeleteMemberShipPlan(string PlanId)
         {
-            var plan = await _adClubRepository.DeleteMemberShipPlan(PlanId);
-            return plan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing Tools from MongoDb Collection by instructor Tools Id
@@ -124,8 +124,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<bool> DeleteTools(string ToolsId)
         {
-            var tools = await _adClubRepository.DeleteTools(ToolsId);
-            return tools;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing Workout from MongoDb Collection by instructor Workout Id
@@ -134,8 +134,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<bool> DeleteWorkout(string WorkoutId)
         {
-            var workout = await _adClubRepository.DeleteWorkout(WorkoutId);
-            return workout;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Instructor by InstructorId from MongoDb Collection by Repository Interface
@@ -144,8 +144,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Instructor> InstructorById(string instructorId)
         {
-            var instructor = await _adClubRepository.InstructorById(instructorId);
-            return instructor;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Tools by ToolsId from MongoDb Collection by Repository Interface
@@ -154,8 +154,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Tools> ToolsById(string ToolsId)
         {
-            var tools = await _adClubRepository.ToolsById(ToolsId);
-            return tools;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Diet Plan by dietPlan object and Id
@@ -165,8 +165,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<DietPlan> UpdateDietPlan(string dietplanId, DietPlan dietPlan)
         {
-            var updatePlan = await _adClubRepository.UpdateDietPlan(dietplanId, dietPlan);
-            return updatePlan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Instructor by Instructor object and Id
@@ -176,8 +176,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Instructor> UpdateInstructor(string instructorId, Instructor instructor)
         {
-            var updateInstructor = await _adClubRepository.UpdateInstructor(instructorId, instructor);
-            return updateInstructor;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing MemberShipPlan by MemberShipPlan object and Id
@@ -187,8 +187,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<MemberShipPlan> UpdateMemberShipPlan(string PlanId, MemberShipPlan memberShipPlan)
         {
-            var updateDietPlan = await _adClubRepository.UpdateMemberShipPlan(PlanId, memberShipPlan);
-            return updateDietPlan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Tools by Tools object and Id
@@ -198,8 +198,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Tools> UpdateTools(string ToolsId, Tools tools)
         {
-            var updateTools = await _adClubRepository.UpdateTools(ToolsId, tools);
-            return updateTools;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Workout by Workout object and Id
@@ -209,8 +209,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Workout> UpdateWorkout(string workoutId, Workout workout)
         {
-            var updateWorkout = await _adClubRepository.UpdateWorkout(workoutId, workout);
-            return updateWorkout;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get list of Appointment
@@ -218,8 +218,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Appointment>> UserAppointment()
         {
-            var appointmentList = await _adClubRepository.UserAppointment();
-            return appointmentList;
+            //Do code here
+            throw new NotImplementedException();
         }
     }
 }

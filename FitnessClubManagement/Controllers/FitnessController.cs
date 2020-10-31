@@ -30,7 +30,8 @@ namespace FitnessClubManagement.Controllers
         [HttpGet]
         public async Task<IEnumerable<Workout>> GetAllWorkout()
         {
-            return await _fCServices.AllWorkout();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get a Workout Details by Workout Id
@@ -41,16 +42,8 @@ namespace FitnessClubManagement.Controllers
         [Route("WorkoutById/{workoutId}")]
         public async Task<IActionResult> WorkoutById(string workoutId)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getworkout = await _fCServices.GetWorkoutById(workoutId);
-            if (getworkout == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("GetAllWorkout", new { WorkoutId = getworkout.WorkoutId }, getworkout);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Find Workout by workout by name and Workout Type
@@ -61,16 +54,8 @@ namespace FitnessClubManagement.Controllers
         [Route("Findworkout/{Name}")]
         public async Task<IActionResult> FindWorkout(string name)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var findworkout = await _fCServices.FindWorkout(name);
-            if (findworkout == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("GetAllWorkout", findworkout);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all DietPlan from MongoDb Collection
@@ -80,7 +65,8 @@ namespace FitnessClubManagement.Controllers
         [Route("DietPlan")]
         public async Task<IEnumerable<DietPlan>> AllDietPlan()
         {
-            return await _fCServices.AllDietPlan();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get a Diet Plan Details by dietplan Id
@@ -91,16 +77,8 @@ namespace FitnessClubManagement.Controllers
         [Route("DietPlanById/{dietplanId}")]
         public async Task<IActionResult> DietPlanById(string dietplanId)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getdiet = await _fCServices.GetDietPlanById(dietplanId);
-            if (getdiet == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("DietPlan", new { DietplanId = getdiet.DietplanId }, getdiet);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// book Appointment by user and save data in MongoDb Appointment collection
@@ -111,24 +89,8 @@ namespace FitnessClubManagement.Controllers
         [Route("BookAppointment")]
         public async Task<IActionResult> BookAppointment([FromBody] AppointmentViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            Appointment appointment = new Appointment
-            {
-                FullName = model.FullName,
-                CurrentWeight = model.CurrentWeight,
-                Height = model.Height,
-                Age = model.Age,
-                GoalWeight = model.GoalWeight,
-                Address = model.Address,
-                PhoneNumber = model.PhoneNumber,
-                Email = model.Email,
-                Remark = model.Remark
-            };
-            var result = await _fCServices.BookAppointment(appointment);
-            return Ok("Thanks for Taking Appointment, We contact you Soon..");
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Instructor from MongoDb Collection
@@ -138,7 +100,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AllInstructor")]
         public async Task<IEnumerable<Instructor>> AllInstructor()
         {
-            return await _fCServices.AllInstructor();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Tools from MongoDb Collection
@@ -148,7 +111,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AllTools")]
         public async Task<IEnumerable<Tools>> GetAllTools()
         {
-            return await _fCServices.AllTools();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get a AppointmentInformation Details by appointment Id
@@ -159,16 +123,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AppointmentInformation/{appointmentId}")]
         public async Task<IActionResult> AppointmentInformation(string appointmentId)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getAInfo = await _fCServices.AppointmentInformation(appointmentId);
-            if (getAInfo == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("UserAppointment", new { appointmentId = getAInfo.AppointmentId }, getAInfo);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all MemberShipPlan from MongoDb Collection
@@ -178,7 +134,8 @@ namespace FitnessClubManagement.Controllers
         [Route("MemberShipPlan")]
         public async Task<IEnumerable<MemberShipPlan>> GetAllMemberShipPlan()
         {
-            return await _fCServices.AllMemberShipPlan();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get a Member Ship Plan By Id Details
@@ -189,16 +146,8 @@ namespace FitnessClubManagement.Controllers
         [Route("MemberShipPlanById/{PlanId}")]
         public async Task<IActionResult> GetMemberShipPlanById(string PlanId)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getPlan = await _fCServices.GetMemberShipPlanById(PlanId);
-            if (getPlan == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("GetAllMemberShipPlan", new { PlanId = getPlan.PlanId }, getPlan);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Conatct Us by User and save all message in ContactUs Db Collection
@@ -209,20 +158,8 @@ namespace FitnessClubManagement.Controllers
         [Route("Contactus")]
         public async Task<IActionResult> ContactUs([FromBody] ContactUsViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            ContactUs message = new ContactUs
-            {
-                FullName = model.FullName,
-                Phone = model.Phone,
-                Email = model.Email,
-                Message = model.Message,
-                DateofMessage = model.DateofMessage
-            };
-            var result = await _fCServices.UserContactUs(message);
-            return Ok("Thanks for Contact with Us Tour Guide We contact you Soon..");
+            //Do code here
+            throw new NotImplementedException();
         }
     }
 }

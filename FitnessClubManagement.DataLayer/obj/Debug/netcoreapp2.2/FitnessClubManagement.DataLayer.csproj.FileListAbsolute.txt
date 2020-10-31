@@ -10,3 +10,15 @@ D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\
 D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.csproj.CopyComplete
 D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.dll
 D:\IIHT\Task-12\MongoDb\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.pdb
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.deps.json
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.pdb
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.pdb
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.csprojAssemblyReference.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.AssemblyInfoInputs.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.AssemblyInfo.cs
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.csproj.CopyComplete
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.DataLayer\obj\Debug\netcoreapp2.2\FitnessClubManagement.DataLayer.pdb

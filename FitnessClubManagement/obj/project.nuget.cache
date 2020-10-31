@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "57NW4lZ2C7gXeUSIGS2paz3vnPFAm98u8GaSVJ1nrXjIE/lUlijmHcFFSjuMRqMoYK2TGMXpIvIZ4uD3EFyswg==",
+  "dgSpecHash": "ijQinycd/ZHtjCvHArB+2ZFxxulxK8sTxdrHY+eGcl3rXCS60zFojN3LTjzfUKuB8MUCKZ9sbIYE/obkwiuQDQ==",
   "success": true,
-  "projectFilePath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement\\FitnessClubManagement.csproj",
+  "projectFilePath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement\\FitnessClubManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",

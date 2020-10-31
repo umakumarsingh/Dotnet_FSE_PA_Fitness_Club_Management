@@ -33,7 +33,8 @@ namespace FitnessClubManagement.Controllers
         [HttpGet]
         public async Task<IEnumerable<Appointment>> UserAppointment()
         {
-            return await _aFClubServices.UserAppointment();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all User Appointment from MongoDb Collection
@@ -43,7 +44,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AllInstructor")]
         public async Task<IEnumerable<Instructor>> AllInstructor()
         {
-            return await _aFClubServices.AllInstructor();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add new DietPlan in MongoDb DietPlan Collection
@@ -54,20 +56,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AddInstructor")]
         public async Task<IActionResult> AddInstructor([FromBody] InstructorViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            Instructor newInstructor = new Instructor
-            {
-                Profession = model.Profession,
-                Competition = model.Competition,
-                TopPlacing = model.TopPlacing,
-                About = model.About,
-                SuggestedWorkOut = model.SuggestedWorkOut
-            };
-            var result = await _aFClubServices.AddInstructor(newInstructor);
-            return Ok("New Instructor added...");
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Instructor by its Id and Instructor Collection
@@ -79,17 +69,8 @@ namespace FitnessClubManagement.Controllers
         [Route("UpdateInstructor/{instructorId}")]
         public async Task<IActionResult> UpdateInstructor(string instructorId, [FromBody] Instructor instructor)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getInstructor = _aFClubServices.InstructorById(instructorId);
-            if (getInstructor == null)
-            {
-                return NotFound();
-            }
-            await _aFClubServices.UpdateInstructor(instructorId, instructor);
-            return CreatedAtAction("AllInstructor", new { InstructorId = instructor.InstructorId }, instructor);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing Instructor by instructorId
@@ -100,23 +81,8 @@ namespace FitnessClubManagement.Controllers
         [Route("DeleteInstructor/{instructorId}")]
         public async Task<IActionResult> DeleteInstructor(string instructorId)
         {
-            if (instructorId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _aFClubServices.DeleteInstructor(instructorId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("instructor Deleted...");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add new DietPlan in MongoDb DietPlan Collection
@@ -127,25 +93,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AddDietPlan")]
         public async Task<IActionResult> AddDietPlan([FromBody] DietPlanViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            DietPlan newPlan = new DietPlan
-            {
-                Name = model.Name,
-                PlanOverview = model.PlanOverview,
-                Description = model.Description,
-                History = model.History,
-                MealTimingFrequency = model.MealTimingFrequency,
-                RestrictionsLimitations = model.RestrictionsLimitations,
-                Phases = model.Phases,
-                BestSuitedFor = model.BestSuitedFor,
-                HowToFollow = model.HowToFollow,
-                Conclusion = model.Conclusion
-            };
-            var result = await _aFClubServices.AddDietPlan(newPlan);
-            return Ok("New Diet Plan added...");
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing DietPlan by its Id and DietPlan Collection
@@ -157,17 +106,8 @@ namespace FitnessClubManagement.Controllers
         [Route("UpdateDietPlan/{dietplanId}")]
         public async Task<IActionResult> UpdateDietPlan(string dietplanId, [FromBody] DietPlan dietPlan)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getDiet = _fClubServices.GetDietPlanById(dietplanId);
-            if (getDiet == null)
-            {
-                return NotFound();
-            }
-            await _aFClubServices.UpdateDietPlan(dietplanId, dietPlan);
-            return CreatedAtAction("AllDietPlan", "Fitness", new { DietplanId = dietPlan.DietplanId }, dietPlan);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing DietPlan by dietplanId
@@ -178,23 +118,8 @@ namespace FitnessClubManagement.Controllers
         [Route("DeleteDietPlan/{dietplanId}")]
         public async Task<IActionResult> DeleteDietPlan(string dietplanId)
         {
-            if (dietplanId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _aFClubServices.DeleteDietPlan(dietplanId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("DietPlan Deleted...");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add workout in MongoDb workout Collection
@@ -205,28 +130,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AddWorkout")]
         public async Task<IActionResult> Addworkout([FromBody] WorkoutViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            Workout newWorkout = new Workout
-            {
-                Name = model.Name,
-                Descriprtion = model.Descriprtion,
-                MainGoal = model.MainGoal,
-                WorkoutType = model.WorkoutType,
-                TrainingLevel = model.TrainingLevel,
-                ProgramDuration = model.ProgramDuration,
-                DaysPerWeek = model.DaysPerWeek,
-                TimePerWorkout = model.TimePerWorkout,
-                EquipmentRequired = model.EquipmentRequired,
-                TargetGender = model.TargetGender,
-                RecommendedSupplements = model.RecommendedSupplements,
-                Author = model.Author,
-                WorkoutPDF = model.WorkoutPDF
-            };
-            var result = await _aFClubServices.Addworkout(newWorkout);
-            return Ok("New Workout added...");
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Workout by its Id and Workout Collection
@@ -238,17 +143,8 @@ namespace FitnessClubManagement.Controllers
         [Route("UpdateWorkout/{workoutId}")]
         public async Task<IActionResult> UpdateWorkout(string workoutId, [FromBody] Workout workout)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getworkout = _fClubServices.GetWorkoutById(workoutId);
-            if (getworkout == null)
-            {
-                return NotFound();
-            }
-            await _aFClubServices.UpdateWorkout(workoutId, workout);
-            return CreatedAtAction("GetAllWorkout", "Fitness", new { WorkoutId = workout.WorkoutId }, workout);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing Workout by WorkoutId
@@ -259,23 +155,8 @@ namespace FitnessClubManagement.Controllers
         [Route("DeleteWorkout/{WorkoutId}")]
         public async Task<IActionResult> DeleteWorkout(string WorkoutId)
         {
-            if (WorkoutId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _aFClubServices.DeleteWorkout(WorkoutId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("Workout Deleted...");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add MemberShip Plan in MongoDb MemberShipPlan Collection
@@ -286,21 +167,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AddMemberShipPlan")]
         public async Task<IActionResult> AddMemberShipPlan([FromBody] MemberShipPlanViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            MemberShipPlan newMPlan = new MemberShipPlan
-            {
-                PlanName = model.PlanName,
-                PlanDetails = model.PlanDetails,
-                PlanAmount = model.PlanAmount,
-                ValidFor = model.ValidFor,
-                PlanStartDate = model.PlanStartDate,
-                Remark = model.Remark
-            };
-            var result = await _aFClubServices.AddMemberShipPlan(newMPlan);
-            return Ok("New MemberShip Plan added...");
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing memberShipPlan by its Id and memberShipPlan Collection
@@ -312,17 +180,8 @@ namespace FitnessClubManagement.Controllers
         [Route("UpdateMemberShipPlan/{PlanId}")]
         public async Task<IActionResult> UpdateMemberShipPlan(string PlanId, [FromBody] MemberShipPlan memberShipPlan)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getMplan = _fClubServices.GetMemberShipPlanById(PlanId);
-            if (getMplan == null)
-            {
-                return NotFound();
-            }
-            await _aFClubServices.UpdateMemberShipPlan(PlanId, memberShipPlan);
-            return CreatedAtAction("MemberShipPlan", "Fitness", new { PlanId = memberShipPlan.PlanId }, memberShipPlan);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing Member Ship Plan by PlanId
@@ -333,23 +192,8 @@ namespace FitnessClubManagement.Controllers
         [Route("DeleteMemberShipPlan/{PlanId}")]
         public async Task<IActionResult> DeleteMemberShipPlan(string PlanId)
         {
-            if (PlanId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _aFClubServices.DeleteMemberShipPlan(PlanId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("Member Ship Plan Deleted...");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add Tools in MongoDb Tools Collection
@@ -360,17 +204,8 @@ namespace FitnessClubManagement.Controllers
         [Route("AddTools")]
         public async Task<IActionResult> AddTools([FromBody] ToolsViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            Tools newTools = new Tools
-            {
-                Name = model.Name,
-                Description = model.Description
-            };
-            var result = await _aFClubServices.AddTools(newTools);
-            return Ok("New Tools added...");
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Tools by its Id and Tools Collection
@@ -382,39 +217,15 @@ namespace FitnessClubManagement.Controllers
         [Route("UpdateTools/{ToolsId}")]
         public async Task<IActionResult> UpdateTools(string ToolsId,[FromBody] Tools tools)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getTools = _aFClubServices.ToolsById(ToolsId);
-            if (getTools == null)
-            {
-                return NotFound();
-            }
-            await _aFClubServices.UpdateTools(ToolsId, tools);
-            return CreatedAtAction("AllTools", "Fitness", new { PlanId = tools.ToolsId }, tools);
+            //Do code here
+            throw new NotImplementedException();
         }
         [HttpDelete]
         [Route("DeleteTools/{ToolsId}")]
         public async Task<IActionResult> DeleteTools(string ToolsId)
         {
-            if (ToolsId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _aFClubServices.DeleteTools(ToolsId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("Tools Deleted...");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get All Contact Message from MongoDb Collection
@@ -424,7 +235,8 @@ namespace FitnessClubManagement.Controllers
         [Route("ContactMessage")]
         public async Task<IEnumerable<ContactUs>> AllContactMessage()
         {
-            return await _aFClubServices.AllContactMessage();
+            //Do code here
+            throw new NotImplementedException();
         }
     }
 }

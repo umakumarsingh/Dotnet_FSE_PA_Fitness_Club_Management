@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zxgf73n41WNsyMF4KpdI2VnbQWNhbv4UqmLDDryWnYT+0tgVwkoGHYPcfqmrvMqY5NiTe3CsJqMcznXLe7tiXw==",
+  "dgSpecHash": "m9pWqhPe2cYeWmoLu+be99RQARkFi30UTOI6ejQn1a7i98qf5FLH3RkzrlGIZ/tAz4lQ2eTU/oNkMalRq3Uucw==",
   "success": true,
-  "projectFilePath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Test\\FitnessClubManagement.Test.csproj",
+  "projectFilePath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Test\\FitnessClubManagement.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

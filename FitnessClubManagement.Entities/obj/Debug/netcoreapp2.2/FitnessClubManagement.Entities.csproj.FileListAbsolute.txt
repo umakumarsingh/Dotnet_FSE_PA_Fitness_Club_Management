@@ -7,3 +7,12 @@ D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\F
 D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.dll
 D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.pdb
 D:\IIHT\Task-12\MongoDb\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.csprojAssemblyReference.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.deps.json
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\bin\Debug\netcoreapp2.2\FitnessClubManagement.Entities.pdb
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.csprojAssemblyReference.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.AssemblyInfoInputs.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.AssemblyInfo.cs
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.csproj.CoreCompileInputs.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Fitness_Club_Management\FitnessClubManagement.Entities\obj\Debug\netcoreapp2.2\FitnessClubManagement.Entities.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj": {}
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj": {}
   },
   "projects": {
-    "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj": {
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj",
         "projectName": "FitnessClubManagement.BusinessLayer",
-        "projectPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.BusinessLayer\\FitnessClubManagement.BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj": {
-                "projectPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj"
               },
-              "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj": {
-                "projectPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj": {
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj",
         "projectName": "FitnessClubManagement.DataLayer",
-        "projectPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.DataLayer\\FitnessClubManagement.DataLayer.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -95,8 +95,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj": {
-                "projectPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj": {
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj",
         "projectName": "FitnessClubManagement.Entities",
-        "projectPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\FitnessClubManagement.Entities.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Task-12\\MongoDb\\FitnessClubManagement.Entities\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Fitness_Club_Management\\FitnessClubManagement.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

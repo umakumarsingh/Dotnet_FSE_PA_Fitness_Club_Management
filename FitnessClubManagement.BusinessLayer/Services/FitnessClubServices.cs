@@ -25,8 +25,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<DietPlan>> AllDietPlan()
         {
-            var dietplan = await _fcRepository.AllDietPlan();
-            return dietplan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Instructor from MongoDb Collection by Repository Interface
@@ -34,8 +34,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Instructor>> AllInstructor()
         {
-            var instructor = await _fcRepository.AllInstructor();
-            return instructor;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Member Ship Plan from MongoDb Collection by Repository Interface
@@ -43,8 +43,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<MemberShipPlan>> AllMemberShipPlan()
         {
-            var plan = await _fcRepository.AllMemberShipPlan();
-            return plan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Tools from MongoDb Collection by Repository Interface
@@ -52,8 +52,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Tools>> AllTools()
         {
-            var tools = await _fcRepository.AllTools();
-            return tools;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Workout from MongoDb Collection by Repository Interface
@@ -61,8 +61,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Workout>> AllWorkout()
         {
-            var workout = await _fcRepository.AllWorkout();
-            return workout;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Appointment by appointment Id from MongoDb Collection by Repository Interface
@@ -71,8 +71,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Appointment> AppointmentInformation(string appointmentId)
         {
-            var appointment = await _fcRepository.AppointmentInformation(appointmentId);
-            return appointment;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Book New Appointment by appointment Object and store Data in MongoDb Collection by Repository Interface
@@ -81,8 +81,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Appointment> BookAppointment(Appointment appointment)
         {
-            var newAppointment = await _fcRepository.BookAppointment(appointment);
-            return newAppointment;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Workout by appointment Name from MongoDb Collection by Repository Interface
@@ -91,8 +91,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Workout>> FindWorkout(string name)
         {
-            var workout = await _fcRepository.FindWorkout(name);
-            return workout;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get DietPlan by DietPlan Id from MongoDb Collection by Repository Interface
@@ -101,8 +101,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<DietPlan> GetDietPlanById(string dietplanId)
         {
-            var dietplan = await _fcRepository.GetDietPlanById(dietplanId);
-            return dietplan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get MemberShipPlan by PlanId from MongoDb Collection by Repository Interface
@@ -111,8 +111,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<MemberShipPlan> GetMemberShipPlanById(string PlanId)
         {
-            var plan = await _fcRepository.GetMemberShipPlanById(PlanId);
-            return plan;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Workout by workoutId from MongoDb Collection by Repository Interface
@@ -121,8 +121,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Workout> GetWorkoutById(string workoutId)
         {
-            var workout = await _fcRepository.GetWorkoutById(workoutId);
-            return workout;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// create ContactUs message by ContactUs Object and store in MongoDb Collection by Repository Interface
@@ -131,8 +131,8 @@ namespace FitnessClubManagement.BusinessLayer.Services
         /// <returns></returns>
         public async Task<ContactUs> UserContactUs(ContactUs contactUs)
         {
-            var contactMsg = await _fcRepository.UserContactUs(contactUs);
-            return contactMsg;
+            //Do code here
+            throw new NotImplementedException();
         }
     }
 }
